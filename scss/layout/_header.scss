@@ -8,7 +8,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background: $bg-color;
-  padding: 18px 100px;
+  padding: 18px 48px;
   box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.2);
 }
 
@@ -17,4 +17,26 @@ header {
   font-size: 1.4rem;
   font-weight: 600;
   color: $primary;
+}
+
+#menu-icon {
+  display: block;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 2rem;
+  display: none;
+}
+
+#menu-icon div {
+  width: 25px;
+  height: 3px;
+  background-color: $navbar;
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  #menu-icon {
+    display: initial;
+  }
+  
 }

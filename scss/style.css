@@ -16,7 +16,7 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: #e7eafb;
-  padding: 18px 100px;
+  padding: 18px 48px;
   -webkit-box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.2);
           box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.2);
 }
@@ -26,6 +26,27 @@ header {
   font-size: 1.4rem;
   font-weight: 600;
   color: #01a29c;
+}
+
+#menu-icon {
+  display: block;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 2rem;
+  display: none;
+}
+
+#menu-icon div {
+  width: 25px;
+  height: 3px;
+  background-color: #222435;
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  #menu-icon {
+    display: initial;
+  }
 }
 
 * {
@@ -44,19 +65,6 @@ html {
   color: #fff;
 }
 
-#menu-icon {
-  display: block;
-  cursor: pointer;
-  margin-right: 10px;
-}
-
-#menu-icon div {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 5px;
-}
-
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,5 +75,54 @@ html {
   font-size: 1rem;
   padding: 10px 20px;
   color: #222435;
+  font-weight: 500;
+}
+
+header .navbar a:hover {
+  background: #01a29c;
+  color: #ebe72c;
+}
+
+@media (max-width: 768px) {
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    background: #e7eafb;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  header .navbar.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .navbar a {
+    margin: 1rem;
+    padding: 1.5rem;
+    display: block;
+    background: white;
+  }
+  .toggle .line1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+            transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .toggle .line2 {
+    opacity: 0;
+  }
+  .toggle .line3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -6px);
+            transform: rotate(45deg) translate(-5px, -6px);
+  }
 }
 /*# sourceMappingURL=style.css.map */

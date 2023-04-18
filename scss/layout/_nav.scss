@@ -1,22 +1,51 @@
-#menu-icon {
-  display: block;
-  cursor: pointer;
-  margin-right: 10px;
-}
-
-#menu-icon div {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 5px;
-}
-
 .navbar {
-    display: flex;
+  display: flex;
 }
 
 .navbar a {
-    font-size: 1rem;
-    padding: 10px 20px;
-    color: $navbar;
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: $navbar;
+  font-weight: 500;
+}
+
+header .navbar a:hover {
+  background: $primary;
+  color: $navbar-a;
+}
+
+@media (max-width: 768px) {
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: $bg-color;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: 0.5s ease;
+  }
+
+  header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+.navbar a {
+    margin: 1rem;
+    padding: 1.5rem;
+    display: block;
+    background: white;
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
 }
