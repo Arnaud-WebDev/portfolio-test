@@ -158,7 +158,7 @@ header .navbar a:hover {
       -ms-flex-align: center;
           align-items: center;
   background-color: #e7eafb;
-  background: url(../../images/Background-home-page.png) no-repeat;
+  background: url(../images/Background-home-page.png) no-repeat;
   background-size: cover;
   background-position: right center;
 }
