@@ -21,6 +21,13 @@ header {
           box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.2);
 }
 
+.logo {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #01a29c;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -48,5 +55,17 @@ html {
   height: 3px;
   background-color: white;
   margin: 5px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar a {
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: #222435;
 }
 /*# sourceMappingURL=style.css.map */

@@ -10,3 +10,13 @@
     background-color: white;
     margin: 5px;
 }
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: $navbar;
+}
