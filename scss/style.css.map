@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,0LAAI;AEAZ,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,UAAU,EAAE,IAAI;EAChB,eAAe,EAAE,IAAI;EACrB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,qBAAqB;CACnC",
+    "sources": [
+        "style.scss",
+        "utils/_variables.scss",
+        "layout/_body.scss",
+        "layout/_nav.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
