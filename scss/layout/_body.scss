@@ -12,3 +12,18 @@ html {
   background: #1c2834;
   color: #fff;
 }
+
+section {
+  padding-left: 250px;
+  padding-top: 50px;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background: #2c3e50;
+}
+body::-webkit-scrollbar-thumb {
+  background: $primary;
+}

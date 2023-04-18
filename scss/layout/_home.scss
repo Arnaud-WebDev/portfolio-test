@@ -1,0 +1,56 @@
+/* Home */
+.home {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  color: $navbar;
+  display: flex;
+  align-items: center;
+  background-color: $bg-color;
+  background: url(../../images/Background-home-page.png) no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+
+.home-text {
+  max-width: 500px;
+}
+
+.home-text h1 {
+  font-size: $h1-font;
+  letter-spacing: $spacing;
+}
+
+.home-text span {
+  color: rgb(5, 8, 170);
+}
+
+.home-text h2 {
+  font-size: $h2-font;
+  margin: 0.4rem 0;
+  letter-spacing: $spacing;
+}
+
+.home-text p {
+  font-size: $p-font;
+  margin-bottom: 2rem;
+  line-height: 22px;
+  max-width: 71%;
+}
+
+.btn {
+  padding: 10px 22px;
+  background: $primary;
+  color: white;
+}
+
+.btn:hover {
+  background: $hover;
+}
+
+@media (max-width: 768px) {
+  .home {
+    background: none;
+    background-color: $bg-color;
+  }
+}

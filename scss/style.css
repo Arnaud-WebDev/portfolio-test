@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* Colors */
+/* Fonts */
 header {
   position: fixed;
   width: 100%;
@@ -65,6 +66,23 @@ html {
   color: #fff;
 }
 
+section {
+  padding-left: 250px;
+  padding-top: 50px;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #2c3e50;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #01a29c;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -113,6 +131,7 @@ header .navbar a:hover {
     display: block;
     background: white;
   }
+  /* Permet de retirer la ligne du milieu et de croiser la ligne 1 et 3  */
   .toggle .line1 {
     -webkit-transform: rotate(-45deg) translate(-5px, 6px);
             transform: rotate(-45deg) translate(-5px, 6px);
@@ -123,6 +142,67 @@ header .navbar a:hover {
   .toggle .line3 {
     -webkit-transform: rotate(45deg) translate(-5px, -6px);
             transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+
+/* Home */
+.home {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  color: #222435;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e7eafb;
+  background: url(../../images/Background-home-page.png) no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+
+.home-text {
+  max-width: 500px;
+}
+
+.home-text h1 {
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+.home-text span {
+  color: #0508aa;
+}
+
+.home-text h2 {
+  font-size: 1.1rem;
+  margin: 0.4rem 0;
+  letter-spacing: 1px;
+}
+
+.home-text p {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  line-height: 22px;
+  max-width: 71%;
+}
+
+.btn {
+  padding: 10px 22px;
+  background: #01a29c;
+  color: white;
+}
+
+.btn:hover {
+  background: #008170;
+}
+
+@media (max-width: 768px) {
+  .home {
+    background: none;
+    background-color: #e7eafb;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -32,20 +32,21 @@ header .navbar a:hover {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
-.navbar a {
+  .navbar a {
     margin: 1rem;
     padding: 1.5rem;
     display: block;
     background: white;
-}
+  }
 
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-.toggle .line2 {
-  opacity: 0;
-}
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
-}
+  /* Permet de retirer la ligne du milieu et de croiser la ligne 1 et 3  */
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .toggle .line2 {
+    opacity: 0;
+  }
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
 }
