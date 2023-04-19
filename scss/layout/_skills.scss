@@ -77,3 +77,13 @@
 .js-bar {
   width: 74%;
 }
+
+@media (max-width: 991px) {
+  .skills-bars {
+    max-width: 420px;
+  }
+  .skills-img {
+    width: 400px;
+    height: 300px;
+  }
+}

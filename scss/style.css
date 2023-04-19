@@ -45,6 +45,15 @@ header {
   margin: 5px;
 }
 
+@media (max-width: 991px) {
+  header {
+    padding: 15px 80px;
+  }
+  section {
+    padding: 50px 80px;
+  }
+}
+
 @media (max-width: 768px) {
   #menu-icon {
     display: initial;
@@ -251,6 +260,16 @@ header .navbar a:hover {
   font-weight: 300;
 }
 
+@media (max-width: 991px) {
+  .about-text {
+    max-width: 444px;
+  }
+  .about-img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
 .skills {
   width: 100%;
   min-height: 100vh;
@@ -366,6 +385,16 @@ header .navbar a:hover {
 
 .js-bar {
   width: 74%;
+}
+
+@media (max-width: 991px) {
+  .skills-bars {
+    max-width: 420px;
+  }
+  .skills-img {
+    width: 400px;
+    height: 300px;
+  }
 }
 
 .portfolio-content {

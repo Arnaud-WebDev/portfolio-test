@@ -34,9 +34,18 @@ header {
   margin: 5px;
 }
 
+@media (max-width: 991px) {
+  header {
+    padding: 15px 80px;
+  }
+  section {
+    padding: 50px 80px;
+  }
+  
+}
+
 @media (max-width: 768px) {
   #menu-icon {
     display: initial;
   }
-  
 }
