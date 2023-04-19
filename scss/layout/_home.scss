@@ -47,10 +47,3 @@
 .btn:hover {
   background: $hover;
 }
-
-@media (max-width: 768px) {
-  .home {
-    background: none;
-    background-color: $bg-color;
-  }
-}
