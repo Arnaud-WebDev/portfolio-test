@@ -1,0 +1,79 @@
+.skills {
+  width: 100%;
+  min-height: 100vh;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  padding: 1.4rem 0;
+}
+.heading h1 {
+  font-size: $h1-font;
+  font-weight: 600;
+  border-bottom: 2px solid $primary;
+}
+.skills-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills-img {
+  width: 500px;
+  height: 400px;
+  margin-top: 9rem;
+}
+.skills-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  margin-left: 30px;
+}
+.skills-bars {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+.skills-text h2 {
+  font-weight: 600;
+}
+.skills-text p {
+  font-size: $p-font;
+  margin: 1rem 0;
+}
+.skills-box {
+  position: relative;
+  background: #2c3e50;
+  margin: 1rem 0;
+  height: 3.4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-top: 3px;
+  border-radius: 10px;
+}
+.skills-box h3 {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 48px;
+  top: 21px;
+  font-weight: 600;
+}
+.percent-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: $primary;
+  height: 0.34rem;
+  border-radius: 10px;
+}
+.html-bar {
+  width: 94%;
+}
+.css-bar {
+  width: 85%;
+}
+.js-bar {
+  width: 74%;
+}

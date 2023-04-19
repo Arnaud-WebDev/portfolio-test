@@ -250,4 +250,139 @@ header .navbar a:hover {
   text-align: justify;
   font-weight: 300;
 }
+
+.skills {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.4rem 0;
+}
+
+.heading h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  border-bottom: 2px solid #01a29c;
+}
+
+.skills-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.skills-img {
+  width: 500px;
+  height: 400px;
+  margin-top: 9rem;
+}
+
+.skills-img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  margin-left: 30px;
+}
+
+.skills-bars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 500px;
+}
+
+.skills-text h2 {
+  font-weight: 600;
+}
+
+.skills-text p {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+.skills-box {
+  position: relative;
+  background: #2c3e50;
+  margin: 1rem 0;
+  height: 3.4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 10px;
+  padding-top: 3px;
+  border-radius: 10px;
+}
+
+.skills-box h3 {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 48px;
+  top: 21px;
+  font-weight: 600;
+}
+
+.percent-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #01a29c;
+  height: 0.34rem;
+  border-radius: 10px;
+}
+
+.html-bar {
+  width: 94%;
+}
+
+.css-bar {
+  width: 85%;
+}
+
+.js-bar {
+  width: 74%;
+}
+
+.svg-html {
+  width: 50px;
+  height: 50px;
+  background: url(../images/svg/html5.svg) left center/60% 80% no-repeat;
+}
+
+.svg-css3 {
+  width: 50px;
+  height: 50px;
+  background: url(../images/svg/css3.svg) left/60% 80% no-repeat;
+}
+
+.svg-js {
+  width: 50px;
+  height: 50px;
+  background: url(../images/svg/js.svg) left/60% 80% no-repeat;
+}
 /*# sourceMappingURL=style.css.map */
