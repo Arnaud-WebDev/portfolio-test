@@ -78,18 +78,12 @@
   width: 74%;
 }
 
-@media (max-width: 991px) {
-  .skills-bars {
-    max-width: 420px;
+@media (max-width: 1200px) {
+  .skills-content {
+    flex-direction: column;
   }
   .skills-img {
     align-items: center;
-  }
-}
-
-@media (max-width: 820px) {
-  .skills-content {
-    flex-direction: column;
   }
   .skills-img img {
     margin-left: 0;
@@ -101,7 +95,12 @@
     width: 320px;
   }
 }
-
+@media (max-width: 400px) {
+  .skills-box h3 {
+    font-size: 1rem;
+    top: 24px;
+  }
+}
 @media (max-width: 360px) {
   .skills-img {
     width: 280px;

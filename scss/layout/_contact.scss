@@ -25,6 +25,7 @@
 form {
   max-width: 360px;
   margin-top: 4rem;
+  text-align: center;
 }
 form input,
 form textarea {
@@ -56,5 +57,17 @@ form textarea {
 @media (max-width: 768px) {
   .contact-content {
     flex-direction: column;
+  }
+}
+@media (max-width: 408px) {
+  form input,
+  form textarea {
+    font-size: 12px;
+  }
+}
+@media (max-width: 334px) {
+  form input,
+  form textarea {
+    font-size: 10px;
   }
 }
