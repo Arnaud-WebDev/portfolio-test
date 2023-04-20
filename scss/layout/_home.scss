@@ -47,3 +47,28 @@
 .btn:hover {
   background: $hover;
 }
+
+@media (max-width: 868px) {
+  .home-text {
+    max-width: 350px;
+  }
+  /*  .home-text h1 {
+    text-align: start;
+  } */
+}
+
+@media (max-width: 768px) {
+  .home {
+    background: #e7eafb;
+    justify-content: center;
+  }
+  .home-text {
+    max-width: 410px;
+  }
+}
+
+@media (max-width: 360px) {
+  .home-text {
+    max-width: 225px;
+  }
+}

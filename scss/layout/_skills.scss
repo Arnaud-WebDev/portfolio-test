@@ -83,7 +83,27 @@
     max-width: 420px;
   }
   .skills-img {
-    width: 400px;
-    height: 300px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 820px) {
+  .skills-content {
+    flex-direction: column;
+  }
+  .skills-img img {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 670px) {
+  .skills-img {
+    width: 320px;
+  }
+}
+
+@media (max-width: 360px) {
+  .skills-img {
+    width: 280px;
   }
 }

@@ -38,3 +38,9 @@
   font-size: $p-font;
   font-weight: 400;
 }
+
+@media (max-width: 820px) {
+  .p-box {
+    flex: 1;
+  }
+}

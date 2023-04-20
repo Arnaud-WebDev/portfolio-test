@@ -7,15 +7,8 @@ menu.addEventListener("click", () => {
   menu.classList.toggle("toggle")
 })
 
-/* Retire la barre de navigation au scroll ? */
+/* Retire la barre de navigation au scroll  */
 window.addEventListener("scroll", () => {
   navbar.classList.remove("active")
   menu.classList.remove("toggle")
 })
-
-/* 
-window.onscroll = () => {
-  navbar.classList.remove("active")
-  menu.classList.remove("toggle")
-}
- */
